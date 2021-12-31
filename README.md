@@ -44,7 +44,7 @@ _TODO_
 
 _TODO general structure_
 
-1. Add prettier for code structuring
+1. Add prettier for consistent code formatting.
 2. Add jest, unit tests for the existing code
 3. Add linting
 4. Add logger like Pino
