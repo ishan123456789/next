@@ -9,6 +9,12 @@ npm run dev
 # or
 yarn dev
 ```
+Also create a file with `.env.local` file name and content as follow
+```
+​MONGODB_URI​=mongod://localhost:27017/contcontact
+​SENDGRID_EMAIL​=test@example.com
+​SENDGRID_API_KEY​=sg####
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -41,3 +47,4 @@ _TODO general structure_
 1. Add prettier for code structuring
 2. Add jest, unit tests for the existing code
 3. Add linting
+4. Add logger like Pino
