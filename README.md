@@ -27,7 +27,7 @@ New user trying to login would create a new account and send verification OTP
 Old user trying to login would need right email/password combination
 
 _In Progress:_
-Form to contact for logged in user
+Form to add contact for logged in user
 
 _TODO_
 
