@@ -12,5 +12,6 @@ const ContactSchema = new mongoose.Schema({
   user: { type: mongoose.Types.ObjectId, ref: "User" }, // overriding _id with ObjectId
 });
 
-export default mongoose.models.ContactSchema ||
+export const ContactModel =
+  mongoose.models.ContactSchema ||
   mongoose.model("ContactSchema", ContactSchema);
